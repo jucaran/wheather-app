@@ -1,0 +1,36 @@
+.box {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px;
+}
+
+.box .input_txt {
+  padding: 4px 10px; 
+  margin: 0 20px; 
+  border-radius: 5px; 
+  background-color: #E8E8E8; 
+  border: none; 
+  transition: border 500ms ease; 
+  border: 2px solid #E8E8E8;
+}
+
+.box .input_txt:focus {
+  border: 2px solid hsl(0, 78%, 45%); 
+  transition: border 500ms ease; 
+}
+
+.box .input_btn {
+  padding: 5px 10px; 
+  background-color: hsl(0, 78%, 45%);
+  color: #E8E8E8;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px; 
+  transition: all 1s ease; 
+}
+
+.box .input_btn:hover {
+  background-color: #FFF;
+  color: #292929;
+  transition: all 1s ease; 
+}
